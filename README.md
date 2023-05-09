@@ -1,46 +1,78 @@
-# Getting Started with Create React App
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=원티드%20프리온보딩%209팀%203차%20과제&fontSize=50)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br/>
 
-## Available Scripts
+# 🗓️ 프로젝트 기간
 
-In the project directory, you can run:
+## 2023.5.9 ~ 2023.5.12 (4일)
 
-### `npm start`
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# 📌 프로젝트 실행 방법
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone the repo
 
-### `npm test`
+```javascript
+$ git clone https://github.com/wanted-pre-onboarding-team-9/pre-onboarding-10th-2-9.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install NPM packages
 
-### `npm run build`
+```javascript
+$ npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```javascript
+$ npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br/>
 
-### `npm run eject`
+# 🛠️ 기술스택
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/>
+<img src="https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=Typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/styled components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/>
+</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# 👀 과제 결과물 프리뷰
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<br/>
 
-## Learn More
+# 🚀 배포 페이지
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# ✨ 세부 구현 방법
+
+<br/>
+
+# 💡 Best Practice 선정 과정
+
+<br/>
+
+# 📂 폴더 구조
+
+<br/>
+
+# ⭐️ 팀원 소개
+
+|                          박상우                           |                           장소진                           |                          이아영                           |
+| :-------------------------------------------------------: | :--------------------------------------------------------: | :-------------------------------------------------------: |
+|       [SangWoo9734](https://github.com/SangWoo9734)       |         [sojinjang](https://github.com/sojinjang)          |          [ARONGLEE](https://github.com/ARONGLEE)          |
+| ![](https://avatars.githubusercontent.com/u/49917043?v=4) | ![](https://avatars.githubusercontent.com/u/111125577?v=4) | ![](https://avatars.githubusercontent.com/u/74637336?v=4) |
+
+|                          이지현                           |                          김성현                           |                          이한나                           |
+| :-------------------------------------------------------: | :-------------------------------------------------------: | :-------------------------------------------------------: |
+|          [j2h30728](https://github.com/j2h30728)          |       [kimisadev27](https://github.com/kimisadev27)       |      [Han-Na-05-22](https://github.com/Han-Na-05-22)      |
+| ![](https://avatars.githubusercontent.com/u/60846068?v=4) | ![](https://avatars.githubusercontent.com/u/34756233?v=4) | ![](https://avatars.githubusercontent.com/u/97869178?v=4) |
+
+|                           전민지                           |                          조하닮                           |                           김현정                           |
+| :--------------------------------------------------------: | :-------------------------------------------------------: | :--------------------------------------------------------: |
+|        [mjjeon2645](https://github.com/mjjeon2645)         |          [ohcmadah](https://github.com/ohcmadah)          |           [sena-22](https://github.com/sena-22)            |
+| ![](https://avatars.githubusercontent.com/u/104840243?v=4) | ![](https://avatars.githubusercontent.com/u/52340070?v=4) | ![](https://avatars.githubusercontent.com/u/110877564?v=4) |
