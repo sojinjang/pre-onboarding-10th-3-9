@@ -3,9 +3,11 @@ import { useCallback, useEffect, useState } from "react";
 
 import { createTodo } from "../api/todo";
 import useFocus from "../hooks/useFocus";
+import { useSearchState, useSearchDispatch } from "../contexts/SearchContext";
 
 const InputTodo = ({ setTodos }) => {
-  const [inputText, setInputText] = useState("");
+  const { inputText } = useSearchState();
+  const { controlKeyboard, changeInputText } = useSearchDispatch();
   const [isLoading, setIsLoading] = useState(false);
   const { ref, setFocus } = useFocus();
 
@@ -34,11 +36,11 @@ const InputTodo = ({ setTodos }) => {
         console.error(error);
         alert("Something went wrong.");
       } finally {
-        setInputText("");
+        changeInputText("");
         setIsLoading(false);
       }
     },
-    [inputText, setTodos],
+    [inputText, setTodos, changeInputText],
   );
 
   return (
@@ -48,7 +50,12 @@ const InputTodo = ({ setTodos }) => {
         placeholder="Add new todo..."
         ref={ref}
         value={inputText}
-        onChange={(e) => setInputText(e.target.value)}
+        onChange={(e) => {
+          changeInputText(e.target.value);
+        }}
+        onKeyDown={(e) => {
+          controlKeyboard(e);
+        }}
         disabled={isLoading}
       />
       {!isLoading ? (
